@@ -25,26 +25,29 @@ Tells companies that make browsers how exactly they should make Javascript work 
 ### const and let
 
 **const**, a keyword for declaring variables in ES6, enhances immutability except when it is used with objects.
+
 It is preferred to use const when you don't want to reassign your variables.
+
+**const**, is best used when targetting selectors.
 
 **var**, can be _hoisted_, variable can be used before its declaration/initialization [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
-**let**raises an exception when read before its initialization, this is also true with **const**
+**let**, raises an exception when read before its initialization, this is also true with **const**
 
-Unlike _const_, _let_ can be reassigned, **mutable variable**
+Unlike _*const*_, _*let*_ can be reassigned, **mutable variable**
 
-Both _let_ and _const_ are **blocked-scope**, a variable is only available within its scope.
-
-**const**is best used when targetting selectors.
+Both _*let*_ and _*const*_ are **blocked-scope**, a variable is only available within its scope.
 
 ### Arrow functions
 
 Makes your code more readable, structured, and modern.
 It is basically a quicker way to write function expressions.
 
-The behavior of **this** in an arrow function:
+# The behavior of **this** in an arrow function
+
 Dfn: ** _this_**, references an object that is executing the current function.
-_this_, in javascript is determined by invocation context of a function and where it is called [More on this keyword](https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c)
+
+**_this_**, in javascript is determined by invocation context of a function and where it is called [More on this keyword](https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c)
 
 Arrow functions don't bind _this_, instead, this is bound lexically.
 
@@ -52,7 +55,7 @@ Arrow functions don't bind _this_, instead, this is bound lexically.
 
 This is a cool feature, **plus** (+) is not used in string concatenation.
 
-This makes your string more organized. [Read_also](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+This makes your string more organized. [more on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ### Default Parameters
 
@@ -64,13 +67,15 @@ Destructuring is a JavaScript expression that makes it possible to unpack values
 
 That is, we can extract data from arrays and objects and assign them to variables.
 
-Vist:[Good_guide](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/)
+Vist: [Good_guide](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/)
 
 ### Import and export
 
 ## Modules
 
-As our application grows bigger, we want to split it into multiple files, so-called “modules”. A module may contain a class or a library of functions for a specific purpose.
+As our application grows bigger, we want to split it into multiple files, so-called “modules”.
+
+A module may contain a class or a library of functions for a specific purpose.
 
 Modules can load each other and use special directives export and import to interchange functionality, call functions of one module from another one
 
