@@ -20,7 +20,7 @@ Tells companies that make browsers how exactly they should make Javascript work 
 
 - Confusion for the best coding practice.
 
-## Features of EA6
+## Features of ES6
 
 ### const and let
 
@@ -38,7 +38,7 @@ Unlike _*const*_, _*let*_ can be reassigned, **mutable variable**
 
 Both _*let*_ and _*const*_ are **blocked-scope**, a variable is only available within its scope.
 
-### Arrow functions
+#### Arrow functions
 
 Makes your code more readable, structured, and modern.
 It is basically a quicker way to write function expressions.
