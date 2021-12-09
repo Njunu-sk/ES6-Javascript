@@ -8,9 +8,9 @@ class Parent {
   }
 }
 
-const parent = new Parent();
-console.log(parent.name); // "parent"
-parent.sayHello();
+// const parent = new Parent();
+// console.log(parent.name); // "parent"
+// parent.sayHello();
 
 class Child extends Parent {
   constructor() {
@@ -19,11 +19,11 @@ class Child extends Parent {
   }
 
   sayGoodbye() {
+    console.log("Able to call Parent method");
     this.sayHello();
-    console.log(" and Goodbye");
   }
 }
 
-// const child = new Child();
-// console.log(child.name); // "Child"
-// child.sayGoodbye();
+const child = new Child();
+console.log(child.name); // "Child"
+child.sayGoodbye();
