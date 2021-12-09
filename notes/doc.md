@@ -1,5 +1,20 @@
 # Introduction to ES6
 
+## Overview
+
+- [Why ES6](#why-es6)
+- [What is ES6](#what-is-es6)
+- [Advantages of ES6](#advantages-of-es6)
+- [Disadvantages of ES6](#disadvantages-of-es6)
+- [Features of ES6](#features-of-es6)
+- [const and let](#const-and-let)
+- [Arrow functions](#arrow-functions)
+- [Template Literals](#template-literals)
+- [Default parameters](#default-parameters)
+- [Array and Object Destructuring](#array-and-object-destructuring)
+- [Import and export](#import-and-export)
+- [Classes](#classes)
+
 ## Why ES6
 
 **What is ES6**
@@ -52,15 +67,19 @@ It is a quicker way to write function expressions.
 
 Dfn: ** _this_**, references an object that is executing the current function.
 
-**_this_**, in javascript is determined by invocation context of a function and where it is called [More on this keyword](https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c)
+**_this_**, in javascript is determined by invocation context of a function and where it is called. [More on this keyword](https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c)
 
 Arrow functions don't bind _this_, instead, this is bound lexically.
+
+**Lexical scoping** - ability to identify a variable in a program by reading through code, [Closures in Ruby](https://www.section.io/engineering-education/understanding-closures-in-ruby/)
 
 ## Template Literals (`)
 
 This is a cool feature, **plus** (+) is not used in string concatenation.
 
-This makes your string more organized. [more on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+This makes your string more organized.
+
+[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ## Default Parameters
 
@@ -72,7 +91,7 @@ Destructuring is a JavaScript expression that makes it possible to unpack values
 
 That is, we can extract data from arrays and objects and assign them to variables.
 
-Vist: [Good_guide](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/)
+[Object Destructuring in Javascript](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/)
 
 ## Import and export
 
@@ -99,7 +118,7 @@ We can use the Spread parameter to get the values of an Array, instead of using 
 
 A function can be called with any number of arguments, no matter how it is defined
 
-[More on this!!](https://javascript.info/rest-parameters-spread)
+[Rest parameters](https://javascript.info/rest-parameters-spread)
 
 ## Classes
 
@@ -138,4 +157,12 @@ A SyntaxError will be thrown if the class contains more than one occurrence of a
 
 A constructor can use the **super** keyword to call the constructor of the superclass.
 
-[Read more!!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[JavaScript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+### Conclusion
+
+Understanding ES6 features will help the developer understand **framework** workings.
+
+With these tools in place, you will be able to dive deep and build [React Applications](https://reactjs.org/tutorial/tutorial.html).
+
+Visit [ECMAScript 6](http://es6-features.org/#Constants), for all features.
