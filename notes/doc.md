@@ -20,9 +20,9 @@ Tells companies that make browsers how exactly they should make Javascript work 
 
 - Confusion for the best coding practice.
 
-## Features of ES6
+# Features of ES6
 
-### const and let
+## const and let
 
 **const**, a keyword for declaring variables in ES6, enhances immutability except when it is used with objects.
 
@@ -38,12 +38,12 @@ Unlike _*const*_, _*let*_ can be reassigned, **mutable variable**
 
 Both _*let*_ and _*const*_ are **blocked-scope**, a variable is only available within its scope.
 
-#### Arrow functions
+## Arrow functions
 
 Makes your code more readable, structured, and modern.
 It is basically a quicker way to write function expressions.
 
-# The behavior of **this** in an arrow function
+### The behavior of **this** in an arrow function
 
 Dfn: ** _this_**, references an object that is executing the current function.
 
@@ -51,17 +51,17 @@ Dfn: ** _this_**, references an object that is executing the current function.
 
 Arrow functions don't bind _this_, instead, this is bound lexically.
 
-### Template Literals (`)
+## Template Literals (`)
 
 This is a cool feature, **plus** (+) is not used in string concatenation.
 
 This makes your string more organized. [more on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-### Default Parameters
+## Default Parameters
 
 Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed.
 
-### Array and Object Destructuring
+## Array and Object Destructuring
 
 Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
@@ -69,7 +69,7 @@ That is, we can extract data from arrays and objects and assign them to variable
 
 Vist: [Good_guide](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/)
 
-### Import and export
+## Import and export
 
 ## Modules
 
@@ -84,7 +84,7 @@ Modules can load each other and use special directives export and import to inte
 
 Using import and export allows one to create separate and reusable components.
 
-### Rest parameter and Spread operator (...)
+## Rest parameter and Spread operator (...)
 
 Rest parameters are used to get the argument of an array and return a new array.
 
@@ -96,7 +96,7 @@ A function can be called with any number of arguments, no matter how it is defin
 
 [More on this!!](https://javascript.info/rest-parameters-spread)
 
-### Classes
+## Classes
 
 A class is a blueprint of an object, the core of object-oriented programming.
 
@@ -114,7 +114,7 @@ A constructor function is initialized with a number of parameters, which would b
 
 The first letter of the identifier would be capitalized by convention.
 
-## Defining a class
+### Defining a class
 
 One way to define a class is using a class declaration. To declare a class, you use the class keyword with the name of the class
 
